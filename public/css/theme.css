@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+.bg-amarillo {
+  background-color: #eac926;
+}
+
+.bg-azul {
+  background-color: #03264c;
+}
+
+.bg-celeste {
+  background-color: #1259c3;
+}
+
+.bg-gris-oscuro {
+  background-color: #666;
+}
+
+.bg-gris-claro {
+  background-color: #ebebeb;
+}
+
+.bg-truck {
+  background-color: #39b54a;
+}
+
+.font-cuerpos-de-texto {
+  font-size: 12px;
+}
+
+.font-titulares {
+  font-size: 24px;
+}
+
+.font-precios {
+  font-size: 18px;
+  width: 30%;
+  align-self: flex-end;
+}
+
+.font-descuentos {
+  font-size: 16px;
+  width: 70%;
+  align-self: flex-end;
+  color: #39b54a;
+}
+
+.font-descripciones {
+  font-size: 16px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.texto-articulo {
+  text-align: left;
+}
+
+.product {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.truck {
+  color: #39b54a;
+}
+
+.product .descripcion-producto {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+  position: relative;
+}
+
+.oculto-site-nav {
+  display: none;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 10px;
+}
